@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  background: url(IMG_3502.jpg);
+  left: 0; right: 0; 
+  top: 0; bottom: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -1;
+  filter: blur(2px);
+}
+
+header {
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 8vh;
+}
+
+nav {
+  float: left;
+  margin-left: 8vw;
+  font-family: 'Bad Script', cursive, sans-serif;
+  font-size: 1.5vw;
+  line-height: 7vh;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 25px;
+  padding: 5px;
+  padding-left: 0;
+  text-decoration: none;
+  color: black;
+}
+
+.contacts {
+  color: aliceblue;
+  font-family: 'Bad Script', cursive, sans-serif;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 10vh auto;
+  padding: 2vh;
+}
+
+h1 {
+  font-size: 4vw;
+  margin: -2vh;
+}
+
+.contacts p {
+  font-size: 1.3vw;
+  font-weight: bolder;
+}
