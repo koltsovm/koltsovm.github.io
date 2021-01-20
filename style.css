@@ -1,0 +1,133 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+    text-align: center;
+    width: 34px;
+    height: 34px;
+    float: right;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 26px;
+    margin: 0 15px 10px 0;
+    padding: 8px;
+    color: #000;
+}
+
+.github a:hover {
+  background: #191919; color: #fff;
+}
+
+.instagram a:hover {
+  background: #3f729b; color: #fff;
+}
+
+.facebook a:hover {
+  background: #3b5998; color: #fff;
+}
+
+.vk a:hover {
+  background: #5d84ae; color: #fff;
+}
+
+.telegram a:hover {
+  background: #249bd7; color: #fff;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 8vh;
+}
+
+nav {
+  float: left;
+  margin-left: 100px;
+  font-family: 'Bad Script', cursive, sans-serif;
+  font-size: 25px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 25px;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.socialNetworks {
+  float: right;
+  width: 50vh;
+  height: 40px;
+  margin-top: 1vh;
+  margin-right: 50px;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  background: url(IMG_3502.jpg);
+  left: 0; right: 0; 
+  top: 0; bottom: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -1;
+  filter: blur(2px);
+}
+
+.portrait {
+  float: left;
+  height: 70vh;
+  margin-top: 6vh;
+  margin-left: 12vh;
+  margin-bottom: 9vh;
+  box-shadow: 0 0 8px 15px rgba(255, 255, 255, 0.5);
+}
+
+.mainInfo {
+  float: left;
+  font-family: 'Bad Script', cursive, sans-serif;
+  text-align: center;
+  margin: 7vh;
+  margin-left: 30vh;
+}
+
+.info {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 70px;
+  margin-top: -5px;
+  margin-bottom: -40px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 8vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.signature {
+  font-family: 'Bad Script', cursive, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
