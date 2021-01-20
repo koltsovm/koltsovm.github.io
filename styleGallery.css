@@ -52,6 +52,8 @@ nav a {
   background-color: rgba(0, 0, 0, 0.2);
   margin: 10vh 15vw;
   padding: 5vh;
+  font-family: 'Bad Script', cursive, sans-serif;
+  text-align: center;
 }
 
 iframe {
@@ -66,4 +68,12 @@ iframe {
 .right {
   float: right;
   margin-right: 2vw;
+}
+
+p {
+  text-align: center;
+  margin-top: -4vh;
+  color: aliceblue;
+  font-family: 'Bad Script', cursive, sans-serif;
+  font-size: 3vw;
 }
